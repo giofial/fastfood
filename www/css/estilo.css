@@ -1,0 +1,13 @@
+.logo {
+  width: 100%;
+  max-width: 160px;
+}
+
+.galeria {
+  border: 10px solid #FFF;
+  margin: 6px;
+  display: block;
+  float: left;
+}
+
+		
