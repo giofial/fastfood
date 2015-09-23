@@ -22,7 +22,7 @@ Esta es una aplicación diseñada con el propósito de hacer más fácil el func
 <gap:splash src="imagenes/splash640.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="imagenes/splash960.png" gap:platform="android" gap:density="xhdpi" />
 
-<author href="http://compufantasia.com" email="leoarana1701@gmail.com">
+<author href="http://compufantasia.com" email="leoarana1710@gmail.com">
 Leonardo Arana.
 </author>
 
