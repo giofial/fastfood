@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>JAJAChistes</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<script>
+
+//VALIDACIONES
+//****************************************
+//****************************************
+//****************************************
+//****************************************
+function validateformcategoria()
+{
+    valid = true;
+	$("#aviso1").hide("slow");
+	document.formfrecuente.strTexto.style.border='1px solid #EEEEEE';
+	//COLORES
+	if (document.formfrecuente.strTexto.value == ""){
+		$("#aviso1").show("slow");
+		document.formfrecuente.strTexto.style.border='1px solid red';
+	    valid = false;
+	}
+	return valid;
+}
+// FIN VALIDACIONES
+//****************************************
+//****************************************
+//****************************************
+//****************************************
+
+</script>
+
+<div data-role="page" id="page">
+	<div data-role="header" data-theme="b">
+		<h1><img class="imagenescalable" src="images/logo.png" alt=""/></h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page5">Los mejores chistes</a></li>
+			<li><a href="#page2">Ranking de chistosos</a></li>
+            <li><a href="#page3">Ejemplos</a></li>
+			<li><a href="#page4">Insertar chiste</a></li>
+            <li><a href="#page6">Proponer categoría</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-theme="e">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Proponer categoría</h1>
+	</div>
+	<div data-role="content">
+	  <div data-role="fieldcontain">
+      <form>
+	    <label for="strCategoria">Categoría que propones:</label>
+	    <input type="text" name="strCategoria" id="strCategoria" value=""  /><br>
+<div class="capaerrores" id="aviso1">Debes escribir una pregunta.</div>
+<div class="capaexito" id="exito1">Tu mensaje está en la cola de moderación y será respondido en breve.</div><br>
+
+	    <button data-icon="arrow-r">enviar</button>
+        </form>
+      </div>	
+			
+	</div>
+	<div data-role="footer">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Los mejores chistes</h1>
+	</div>
+	<div data-role="content">	
+		Probando	
+	</div>
+	<div data-role="footer">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Ranking de chistosos</h1>
+	</div>
+	<div data-role="content">	
+		Probando	
+	</div>
+	<div data-role="footer">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Ejemplos</h1>
+	</div>
+	<div data-role="content">	
+Ejemplos de chistes para inspirarte:
+<div data-role="collapsible">
+   <h3>El marido que llega tarde. <span class="categoria">Maridos y esposas</span></h3>
+   <p>El marido llega a su casa al amanecer, lo espera su mujer en la puerta, está borracho y con manchas de lápiz labial.<br>
+¿Supongo que hay una razón para que llegues a las seis de la mañana?<br>
+
+Sí, el desayuno.</p>
+</div>
+
+		
+	</div>
+	<div data-role="footer">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Insertar chiste</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>Aplicación de ejemplo.<br>
+¿Quieres hacer una App como esta <a href="http://www.dreamweaver-tutoriales.com">desde cero</a>?</h4>
+	</div>
+</div>
+
+</body>
+</html>
