@@ -1,0 +1,301 @@
+<!DOCTYPE html> 
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+      <meta charset="utf-8">
+      <title>Fast Food Restaurant</title>
+      <link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+      <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+      <script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+      <script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+  </head> 
+  <body> 
+<!--  Página principal de la APP  -->
+    <div data-role="page" id="page">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            <ul data-role="listview" data-theme="c">
+                <li><a href="#info" data-transition="pop">Información</a></li>
+                <li><a href="#recetas" data-transition="fade">Recetas</a></li>
+                <li><a href="#fotos" data-transition="flip">Galería</a></li>
+                <li><a href="#siguenos" data-transition="slideup">Síguenos</a></li>
+                <li><a href="#about" data-transition="slidedown">Acerca de</a></li>
+            </ul>		
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+<!--  Fin de la Página principal de la APP  -->
+
+    <div data-role="page" id="info" data-add-back-btn="true">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            Esta es una aplicación diseñada con el propósito de hacer más fácil el funcionamiento de la cocina, haciendo más sencilla la forma de ver cada platillo; en ella verás diferentes recetas, desde platillos típicos hasta buffetes de chef.		
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+    <div data-role="page" id="recetas" data-add-back-btn="true">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            Contenido<br><br>
+            <ul>
+            <li><a href="#rec1" data-rel="dialog">Tostada de Camarón</a></li>
+            <li><a href="#rec2" data-rel="dialog">Empanadilla de Atún</a></li>
+            <li><a href="#rec3" data-rel="dialog">Moldes de fideo con caldo de frijol</a></li>
+            <li><a href="#rec4" data-rel="dialog">Bolitas de Arroz Coloridas</a></li>
+            <li><a href="#rec5" data-rel="dialog">Papas al Horno</a></li>
+            <li><a href="#rec6" data-rel="dialog">Sopa de elote con Menta</a></li>
+
+            </ul>
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+    <div data-role="page" id="fotos" data-add-back-btn="true">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            Contenido	
+            <img src="imagenes/rec1.jpg" alt="Tostada de Camarón" height="150">
+            <img src="imagenes/rec2.jpg" alt="Tostada de Camarón" height="150">
+            <img src="imagenes/rec3.jpg" alt="Tostada de Camarón" height="150">
+            <img src="imagenes/rec4.jpg" alt="Tostada de Camarón" height="150">
+            <img src="imagenes/rec5.jpg" alt="Tostada de Camarón" height="150">	
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="siguenos" data-add-back-btn="true">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            Contenido		
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="about" data-add-back-btn="true">
+        <div data-role="header" data-theme="b">
+            <h1>Fast Food</h1>
+        </div>
+        <div data-role="content">	
+            Contenido		
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="rec1">
+        <div data-role="header" data-theme="b">
+            <h1>Tostada de Camarón</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec1.jpg" alt="Tostada de Camarón" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>400 g de camarón pacotilla cocido y pelado</li>
+<li>1/2 taza de catsup</li>
+<li>1 cucharada de salsa tipo Búfalo</li>
+<li>1 cucharada de vinagre balsámico</li>
+<li>3 cucharadas de jugo de limón</li>
+<li>3 cucharadas de aceite de oliva</li>
+<li>1 taza cebolla picada</li>
+<li>1/2 taza de cilantro picado</li>
+<li>1 aguacate</li>
+<li>8 tostadas</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>Mezcla la catsup con la salsa Búfalo, el vinagre balsámico, el jugo de limón y el aceite de oliva, agrega los camarones y salpimienta a tu gusto.</li>
+<li>Coloca rebanadas de aguacate sobre las tostadas. Añade el coctel de camarón.</li>
+<li>Para adornar, agrega cebolla y cilantro. Sirve. </li>
+</ul>
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+ 
+     <div data-role="page" id="rec2">
+        <div data-role="header" data-theme="b">
+            <h1>Empanadillas de Atún</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec2.jpg" alt="Empanadillas de Atún" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>2 latas de atún</li>
+<li>1/2 taza de cebolla picada</li>
+<li>1 taza de jitomate picado</li>
+<li>1 diente de ajo picado</li>
+<li>1/3 de taza de zanahorias picadas</li>
+<li>1/3 de taza de chícharos cocidos</li>
+<li>1 cucharada de orégano</li>
+<li>8 hojas para empanada</li>
+<li>Aceite suficiente para freír</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>Sofríe la cebolla con la zanahoria y el ajo con una cucharada de aceite durante 5 minutos. Añade el jitomate y el orégano. Deja cocer a fuego medio durante 5 minutos y salpimienta.</li>
+<li>Agrega el atún ligeramente deshebrado y los chícharos, cuece hasta reducir todo el agua del jitomate. Permite que enfríe la mezcla completamente.</li>
+<li>Calienta muy bien el aceite. Coloca una cucharada de la mezcla en cada hoja de empanada, cierra con un poco de agua y pellizca las orillas. Fríe hasta que doren, resérvalas un momento en papel absorbente.</li>
+<li>. Envuélvelas en papel aluminio y envíalas. </li>
+</ul>
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+        <div data-role="page" id="rec3">
+        <div data-role="header" data-theme="b">
+            <h1>Moldes de fideo con caldo de frijol</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec3.jpg" alt="Moldes de fideo con caldo de frijol" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>200 g de fideos</li>
+<li>1 taza de frijoles cocidos</li>
+<li>4 jitomates</li>
+<li>1/2 cebolla chica</li>
+<li>1 diente de ajo</li>
+<li>2 chiles guajillo desvenados, asados y remojados</li>
+<li>1 1/2 tazas de caldo de pollo o agua</li>
+<li>1/2 taza de crema</li>
+<li>200 g de queso fresco desmoronado</li>
+<li>Aceite vegetal</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>En una cacerola con aceite caliente fríe los fideos hasta que estén dorados; mueve con frecuencia para que no se quemen.</li>
+<li>Licua los jitomates, la cebolla, el ajo y los chiles, reserva 1 taza y vierte el resto sobre los fideos.</li>
+<li>. Añade el caldo y cocina a fuego bajo hasta que los fideos casi estén secos, retira de la estufa. </li>
+<li>. Licua la salsa que reservaste con los frijoles, vacía en un recipiente y cocina hasta que hierva y espese ligeramente.</li>
+<li>Reparte los fideos entre cuatro flaneras, presiona un poco para compactarlos y desmolda sobre los platos; báñalos con la salsa de frijol y sirve con crema y queso</li>
+</ul>
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+    <div data-role="page" id="rec4">
+        <div data-role="header" data-theme="b">
+            <h1>Bolitas de Arroz Coloridas</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec4.jpeg" alt="Bolitas de Arroz Coloridas" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>1 taza de arroz japonés</li>
+<li>1 1/4 de tazas de agua</li>
+<li>1 cucharada de vinagre</li>
+<li>1 pizca de azúcar</li>
+<li>1/3 de taza de surimi</li>
+<li>3 gotas de colorante azul</li>
+<li>3 gotas de colorante rosa</li>
+<li>3 gotas de colorante verde</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>Enjuaga el arroz hasta que el agua salga clara, cuélalo y colócalo en una olla junto con las tazas de agua de la receta.</li>
+<li>Calienta a fuego alto hasta que comience a salir espuma, reduce inmediatamente el fuego al mínimo y deja cocer 13 minutos. Reposa durante cinco minutos más.</li>
+<li> Mezcla el vinagre con el azúcar y una pizca de sal, incorpora esto cuidadosamente al arroz. Divide en tres partes iguales, agrega los diferentes colorantes a cada una de ellas. </li>
+<li> Una vez que el arroz esté frío, toma un poco y haz una bolita hueca, rellena con un poco de surimi y cierra. Deja sobre un plato en el refrigerador para que se sequen un poco antes de servir. </li>
+</ul>
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+     <div data-role="page" id="rec5">
+        <div data-role="header" data-theme="b">
+            <h1>Papas al Horno</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec5.jpg" alt="Papas al Horno" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>4 papas grandes</li>
+<li>2 rebanadas de tocino</li>
+<li>1/2 cebolla finamente picada</li>
+<li>1 diente de ajo finamente picado</li>
+<li>1/2 taza de crema</li>
+<li>2 tazas de caldo de pollo</li>
+<li>3 rebanadas de queso amarillo picadas (opcional)</li>
+<li>1 cucharada de orégano molido</li>
+<li>Sal y pimienta al gusto</li>
+<li>Aceite vegetal</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>En una sarténfríe el tocino, cuando esté dorado, retíralo y ponlo sobre toallas de papel; reserva la grasa que soltó.</li>
+<li>. Corta una rebanada muy delgada a lo largo de las papas y retira la pulpa con una cuchara sacabocados para ahuecarlas (deja un espesor de 2-3 mm); reserva la pulpa y las papas.</li>
+<li> Unta la grasa del tocino por dentro y fuera de las papas, sazónalas con el orégano y ponlas en una charola. </li>
+<li>Hornea, en horno precalentado, 30 minutos a 180°C o hasta que estén cocidas; retíralas. </li>
+<li>Sofríe la cebolla y el ajo en una cacerola con aceite, incorpora la crema, el caldo y la pulpa de la papa; cocina hasta que hierva y la papa esté cocida.</li>
+<li>Procesa lo anterior en la licuadora para lograr una mezcla homogénea, vierte en la cacerola y cuando hierva, sazona con sal y pimienta.</li>
+<li>Reparte la sopa entre las papas y espolvorea el queso y el tocino. </li>
+</ul>
+
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+    
+         <div data-role="page" id="rec6">
+        <div data-role="header" data-theme="b">
+            <h1>Sopa de elote con menta</h1>
+        </div>
+        <div data-role="content">	
+<img src="imagenes/rec6.jpeg" alt="Sopa de elote con Menta" height="150">
+<p>Ingredientes:</p>
+<ul>
+<li>2 tazas de granos de elote blanco cocidos</li>
+<li>1 taza de granos de elote amarillo cocidos</li>
+<li>3/4 de litro de caldo de pollo</li>
+<li>1 taza de leche</li>
+<li>3 cucharadas de queso crema</li>
+<li>1/2 taza de vino blanco</li>
+<li>2 cucharadas de aceite de oliva</li>
+<li>2 cucharadas de menta picada</li>
+<li>2 cucharadas de ajo picado</li>
+</ul>
+<p>Preparación:</p>
+<ul>
+<li>Reserva cuatro cucharadas de granos de elote amarillo.</li>
+<li>Sofríe el ajo junto con los granos de elote con el aceite de oliva en una sartén grande. Agrega el vino y reduce a la mitad de su volumen.</li>
+<li>Añade el caldo de pollo y la leche, hierve por 8 minutos y licua junto con el queso crema hasta obtener una consistencia lisa. Cuela perfectamente.</li>
+<li>Rectifica el sabor y sirve. Decora con un poco de menta y una cucharada de granos de eloteamarillo antes de llevar a la mesa.</li>
+</ul>
+
+        </div>
+        <div data-role="footer" data-theme="e">
+            <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
+        </div>
+    </div>
+       
+</body>
+</html>
