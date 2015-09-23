@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.compufantasia.app"
+    version   = "1.0.0">
+
+<name>Fast Food Restaurant</name>
+
+<description>
+Esta es una aplicación diseñada con el propósito de hacer más fácil el funcionamiento de la cocina, haciendo más sencilla la forma de ver cada platillo; en ella verás diferentes recetas, desde platillos típicos hasta buffetes de chef.
+</description>
+
+<gap:platform name="android" />
+
+<icon src="imagenes/icoapp36.png" gap:platform="android" gap:density="ldpi" />
+<icon src="imagenes/icoapp48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="imagenes/icoapp72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="imagenes/icoapp96.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="imagenes/splash426.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="imagenes/splash470.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="imagenes/splash640.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="imagenes/splash960.png" gap:platform="android" gap:density="xhdpi" />
+
+<author href="http://compufantasia.com" email="leoarana1701@gmail.com">
+Leonardo Arana.
+</author>
+
+</widget>
