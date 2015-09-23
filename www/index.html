@@ -5,6 +5,7 @@
       <meta charset="utf-8">
       <title>Fast Food Restaurant</title>
       <link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="css/estilo.css">
       <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
       <script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
       <script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
@@ -13,7 +14,7 @@
 <!--  Página principal de la APP  -->
     <div data-role="page" id="page">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
         <div data-role="content">	
             <ul data-role="listview" data-theme="c">
@@ -32,7 +33,7 @@
 
     <div data-role="page" id="info" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
         <div data-role="content">	
             Esta es una aplicación diseñada con el propósito de hacer más fácil el funcionamiento de la cocina, haciendo más sencilla la forma de ver cada platillo; en ella verás diferentes recetas, desde platillos típicos hasta buffetes de chef.		
@@ -44,19 +45,31 @@
     
     <div data-role="page" id="recetas" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
         <div data-role="content">	
-            Contenido<br><br>
-            <ul>
-            <li><a href="#rec1" data-rel="dialog">Tostada de Camarón</a></li>
-            <li><a href="#rec2" data-rel="dialog">Empanadilla de Atún</a></li>
-            <li><a href="#rec3" data-rel="dialog">Moldes de fideo con caldo de frijol</a></li>
-            <li><a href="#rec4" data-rel="dialog">Bolitas de Arroz Coloridas</a></li>
-            <li><a href="#rec5" data-rel="dialog">Papas al Horno</a></li>
-            <li><a href="#rec6" data-rel="dialog">Sopa de elote con Menta</a></li>
-
-            </ul>
+            Recetas:<br><br>
+            <div data-role="button">
+            	<a href="#rec1" data-rel="dialog">Tostada de Camarón</a>
+            </div>
+            <div data-role="button">
+            	<a href="#rec2" data-rel="dialog">Empanadilla de Atún</a>
+            </div>
+            <div data-role="button">
+            	<a href="#rec3" data-rel="dialog">Moldes de Fideo con Caldo de Frijol</a>
+            </div>
+            <div data-role="button">
+            	<a href="#rec4" data-rel="dialog">Bolitas de Arroz Coloridas</a>
+                </div>
+             <div data-role="button">
+                <a href="#rec5" data-rel="dialog">Papas al Horno</a>
+             </div>
+             <div data-role="button">
+                <a href="#rec6" data-rel="dialog">Sopa de Elote con Menta</a>
+              </div>
+              <div data-role="button">
+              	<a href="#rec6" data-rel="dialog">Sopa de Elote con Menta</a>
+              </div>  
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
@@ -65,15 +78,16 @@
     
     <div data-role="page" id="fotos" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
         <div data-role="content">	
-            Contenido	
-            <img src="imagenes/rec1.jpg" alt="Tostada de Camarón" height="150">
-            <img src="imagenes/rec2.jpg" alt="Tostada de Camarón" height="150">
-            <img src="imagenes/rec3.jpg" alt="Tostada de Camarón" height="150">
-            <img src="imagenes/rec4.jpg" alt="Tostada de Camarón" height="150">
-            <img src="imagenes/rec5.jpg" alt="Tostada de Camarón" height="150">	
+            Galería:<br><br>
+            <img class="galeria" src="imagenes/rec1.jpg" alt="Tostada de Camarón" height="150">
+            <img class="galeria" src="imagenes/rec2.jpg" alt="Tostada de Camarón" height="150">
+            <img class="galeria" src="imagenes/rec3.jpg" alt="Tostada de Camarón" height="150">
+            <img class="galeria" src="imagenes/rec4.jpeg" alt="Tostada de Camarón" height="150">
+            <img class="galeria" src="imagenes/rec5.jpg" alt="Tostada de Camarón" height="150">
+            <img class="galeria" src="imagenes/rec6.jpeg" alt="r6" height="150">	
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
@@ -82,10 +96,21 @@
 
     <div data-role="page" id="siguenos" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
         <div data-role="content">	
-            Contenido		
+            Contenido
+            <div data-role="button">
+            	<a href="https://www.facebook.com/FastFoodgrupo2?fref=ts" data-rel="dialog"></a>
+                <img src="imagenes/imag.jpg" alt="Redes Sociales" height="150">
+            </div>
+            
+            <div data-role="button">
+            	<a href="https://build.phonegap.com/apps/1668038/share" data-rel="dialog"></a>
+                <img src="imagenes/pag.jpg" alt="Nuestra aplicacion en la red" height="150">
+            </div>
+            
+            		
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
@@ -94,10 +119,24 @@
 
     <div data-role="page" id="about" data-add-back-btn="true">
         <div data-role="header" data-theme="b">
-            <h1>Fast Food</h1>
+            <h1><img class="logo" src="imagenes/logo.png" alt="Logo"></h1>
         </div>
-        <div data-role="content">	
-            Contenido		
+        <div data-role="content">
+        	<div data-role="collapsible" data-theme="e" data-content-theme="d">
+              <h3>Acerca del Programa</h3>
+              <p>Grupo Fast Food</p>
+            
+            <div data-role="collapsible" data-theme="b" data-content-theme="d">
+              <h3>Integrantes:</h3>
+              <p>Leonardo Arana="Programador"</p>
+              <p>Gama Simon</p>
+              <p>Juan Carlos Callejas</p>
+              <p>Delmy Avelar</p>
+              <p>Walter Castro</p>
+           
+            </div>
+            
+            </div>
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
@@ -158,7 +197,7 @@
 <li>Sofríe la cebolla con la zanahoria y el ajo con una cucharada de aceite durante 5 minutos. Añade el jitomate y el orégano. Deja cocer a fuego medio durante 5 minutos y salpimienta.</li>
 <li>Agrega el atún ligeramente deshebrado y los chícharos, cuece hasta reducir todo el agua del jitomate. Permite que enfríe la mezcla completamente.</li>
 <li>Calienta muy bien el aceite. Coloca una cucharada de la mezcla en cada hoja de empanada, cierra con un poco de agua y pellizca las orillas. Fríe hasta que doren, resérvalas un momento en papel absorbente.</li>
-<li>. Envuélvelas en papel aluminio y envíalas. </li>
+<li>Envuélvelas en papel aluminio y envíalas.</li>
 </ul>
         </div>
         <div data-role="footer" data-theme="e">
@@ -189,9 +228,9 @@
 <ul>
 <li>En una cacerola con aceite caliente fríe los fideos hasta que estén dorados; mueve con frecuencia para que no se quemen.</li>
 <li>Licua los jitomates, la cebolla, el ajo y los chiles, reserva 1 taza y vierte el resto sobre los fideos.</li>
-<li>. Añade el caldo y cocina a fuego bajo hasta que los fideos casi estén secos, retira de la estufa. </li>
-<li>. Licua la salsa que reservaste con los frijoles, vacía en un recipiente y cocina hasta que hierva y espese ligeramente.</li>
-<li>Reparte los fideos entre cuatro flaneras, presiona un poco para compactarlos y desmolda sobre los platos; báñalos con la salsa de frijol y sirve con crema y queso</li>
+<li>Añade el caldo y cocina a fuego bajo hasta que los fideos casi estén secos, retira de la estufa.</li>
+<li>Licua la salsa que reservaste con los frijoles, vacía en un recipiente y cocina hasta que hierva y espese ligeramente.</li>
+<li>Reparte los fideos entre cuatro flaneras, presiona un poco para compactarlos y desmolda sobre los platos; báñalos con la salsa de frijol y sirve con crema y queso.</li>
 </ul>
         </div>
         <div data-role="footer" data-theme="e">
@@ -220,8 +259,8 @@
 <ul>
 <li>Enjuaga el arroz hasta que el agua salga clara, cuélalo y colócalo en una olla junto con las tazas de agua de la receta.</li>
 <li>Calienta a fuego alto hasta que comience a salir espuma, reduce inmediatamente el fuego al mínimo y deja cocer 13 minutos. Reposa durante cinco minutos más.</li>
-<li> Mezcla el vinagre con el azúcar y una pizca de sal, incorpora esto cuidadosamente al arroz. Divide en tres partes iguales, agrega los diferentes colorantes a cada una de ellas. </li>
-<li> Una vez que el arroz esté frío, toma un poco y haz una bolita hueca, rellena con un poco de surimi y cierra. Deja sobre un plato en el refrigerador para que se sequen un poco antes de servir. </li>
+<li> Mezcla el vinagre con el azúcar y una pizca de sal, incorpora esto cuidadosamente al arroz. Divide en tres partes iguales, agrega los diferentes colorantes a cada una de ellas.</li>
+<li> Una vez que el arroz esté frío, toma un poco y haz una bolita hueca, rellena con un poco de surimi y cierra. Deja sobre un plato en el refrigerador para que se sequen un poco antes de servir.</li>
 </ul>
         </div>
         <div data-role="footer" data-theme="e">
@@ -252,13 +291,12 @@
 <ul>
 <li>En una sarténfríe el tocino, cuando esté dorado, retíralo y ponlo sobre toallas de papel; reserva la grasa que soltó.</li>
 <li>. Corta una rebanada muy delgada a lo largo de las papas y retira la pulpa con una cuchara sacabocados para ahuecarlas (deja un espesor de 2-3 mm); reserva la pulpa y las papas.</li>
-<li> Unta la grasa del tocino por dentro y fuera de las papas, sazónalas con el orégano y ponlas en una charola. </li>
-<li>Hornea, en horno precalentado, 30 minutos a 180°C o hasta que estén cocidas; retíralas. </li>
+<li> Unta la grasa del tocino por dentro y fuera de las papas, sazónalas con el orégano y ponlas en una charola.</li>
+<li>Hornea, en horno precalentado, 30 minutos a 180°C o hasta que estén cocidas; retíralas.</li>
 <li>Sofríe la cebolla y el ajo en una cacerola con aceite, incorpora la crema, el caldo y la pulpa de la papa; cocina hasta que hierva y la papa esté cocida.</li>
 <li>Procesa lo anterior en la licuadora para lograr una mezcla homogénea, vierte en la cacerola y cuando hierva, sazona con sal y pimienta.</li>
-<li>Reparte la sopa entre las papas y espolvorea el queso y el tocino. </li>
+<li>Reparte la sopa entre las papas y espolvorea el queso y el tocino.</li>
 </ul>
-
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
@@ -290,7 +328,6 @@
 <li>Añade el caldo de pollo y la leche, hierve por 8 minutos y licua junto con el queso crema hasta obtener una consistencia lisa. Cuela perfectamente.</li>
 <li>Rectifica el sabor y sirve. Decora con un poco de menta y una cucharada de granos de eloteamarillo antes de llevar a la mesa.</li>
 </ul>
-
         </div>
         <div data-role="footer" data-theme="e">
             <h4>Fast Food Restaurant&reg; &bull; sep2015</h4>
